@@ -9,7 +9,7 @@ import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.logic.parser.exceptions.ParseException;
 import seedu.address.model.ReadOnlyAddressBook;
 import seedu.address.model.booking.Booking;
-import seedu.address.model.booking.Venue;
+import seedu.address.model.venue.Venue;
 import seedu.address.model.person.Person;
 
 /**

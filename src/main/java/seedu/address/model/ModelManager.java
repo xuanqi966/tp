@@ -155,14 +155,6 @@ public class ModelManager implements Model {
         return filteredPersons;
     }
 
-    /**
-     * Returns an unmodifiable view of the list of {@code Booking} backed by the internal list of
-     * {@code versionedAddressBook}
-     */
-    @Override
-    public ObservableList<Booking> getUpcomingBookingList() {
-        return filteredBookings;
-    }
 
     /**
      * Returns an unmodifiable view of the list of {@code Booking} backed by the internal list of
@@ -231,12 +223,13 @@ public class ModelManager implements Model {
 
     //=========== Filtered Booking List Accessors =============================================================
 
+
     /**
-     * Returns an unmodifiable view of the list of {@code Bookings} backed by the internal list of
+     * Returns an unmodifiable view of the list of {@code Booking} backed by the internal list of
      * {@code versionedAddressBook}
      */
     @Override
-    public ObservableList<Booking> getFilteredBookingList() {
+    public ObservableList<Booking> getUpcomingBookingList() {
         return filteredBookings;
     }
 
